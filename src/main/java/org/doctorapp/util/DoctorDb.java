@@ -8,7 +8,7 @@ public class DoctorDb {
     static Connection connection;
 
     public static Connection openConnection() {
-        String url = "jdbc:mysql://localhost:3306/doctor_app";
+        String url = "jdbc:mysql://localhost:3306/voyatraining";
         String username = "root";
         String password = "root";
         try {
